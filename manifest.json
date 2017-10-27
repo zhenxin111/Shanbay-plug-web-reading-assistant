@@ -1,0 +1,27 @@
+{
+  "name": "Shanbay-plug-web-reading",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "实现网页阅读模式开启、按屏分页以及取词翻译功能",
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ],
+  "background":{
+    "page": "shanbay.html"
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": [
+      "js/jquery-1.9.1.js"
+    ],
+    "css": ["css/shanbay.css"],
+    "run_at": "document_start",
+    "all_frames": true
+  }]
+
+}
