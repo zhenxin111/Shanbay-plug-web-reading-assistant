@@ -1,0 +1,41 @@
+.pageList{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+    z-index: 999;
+    background-color: #f0f8ff;
+}
+.pageList .warp-center{
+    float: left;
+    position: relative;
+    left: 50%;
+}
+.pageList ul{
+    position: relative;
+    text-align: center;
+    display: block;
+    left: -50%;
+    margin-top: 0px;
+}
+.pageList li,.pageList li:link{
+    float: left;
+    width: 25px;
+    list-style: none;
+    line-height: 23px;
+    padding: 0px 8px;
+    cursor: pointer;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pageList li:visited{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.pageList li:hover{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
