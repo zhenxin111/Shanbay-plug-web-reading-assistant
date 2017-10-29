@@ -1,13 +1,11 @@
-# Shanbay-plug-web-reading-assistant
-## Chrome扩展：
-### 作用
+## Chrome扩展：Shanbay-plug-web-reading-assistant
+
+## 作用
 > 针对[卫报网站](https://www.theguardian.com)的文章单页，进行广告过滤、长页面分页以及双击取词翻译功能。
 
 
 
-### 具体功能实现
-
-#### 广告过滤：
+### 广告过滤：
 分析卫报网站文章页面布局，将广告标签一一移除；针对自动加载的谷歌广告，使用定时器（setInterval方法）每隔两秒进行检查删除；
 
 ### 长页面分页：
