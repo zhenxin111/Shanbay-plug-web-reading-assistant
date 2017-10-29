@@ -1,10 +1,10 @@
 {
-  "name": "Shanbay-plug-web-reading",
+  "name": "Shanbay-plug-web-reading-assistant",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "实现网页阅读模式开启、按屏分页以及取词翻译功能",
+  "description": "扇贝小作业：实现网页广告过滤、分页以及取词翻译功能",
   "browser_action": {
-    "default_icon": "logo.png"
+    "default_icon": "img/logo.png"
   },
   "permissions": [
     "tabs",
@@ -20,8 +20,12 @@
       "js/jquery-1.9.1.js"
     ],
     "css": ["css/shanbay.css"],
-    "run_at": "document_start",
-    "all_frames": true
-  }]
+    "run_at": "document_start"
+  }],
+  "icons": {
+    "16": "img/16.png",
+    "48": "img/48.png",
+    "128": "img/128.png"
+  }
 
 }
